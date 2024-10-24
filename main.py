@@ -12,7 +12,7 @@ print(nova_idade)
 
 #listas
 lista= [1,2,3,4]
-
+print(lista)
 #metodos
 lista_invertida = lista.reverse()
 print(lista_invertida)
