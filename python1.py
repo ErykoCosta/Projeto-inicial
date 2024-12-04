@@ -21,6 +21,16 @@
 CONSTANTE_BONUS = 1000
 
 nome = input("Digite seu nome: ")
+
+if nome.isdigit():
+    print("Erro - Vc digitou o nome errado!")
+    exit()
+elif len(nome) == 0:
+    print("Erro - Você não digitou nada!")
+    exit()
+elif nome.isspace():
+    print("Erro - Você digitou só espaço!")
+    
 salario = float(input("Digite seu salário: "))
 bonus = float(input("Digite seu bônus: "))
 
